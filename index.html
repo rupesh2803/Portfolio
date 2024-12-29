@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>Portfolio</title>
+
+  <!--
+    - short
+  -->
+  <link rel="shortcut icon" href="./assets/images/short.png" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="light-theme">
+
+  <!-- Start scroll-up-button -->
+  <div class="scroll-up-btn" onclick="scrollToTop()">
+    <img src="./assets/images/scroll-top-img.png" alt="scroll top icon" />
+  </div>
+  <!-- End scroll-up-button -->
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo.png" alt="logo" class="logo-light" />
+          <img src="./assets/images/logo.png" alt="logo" class="logo-dark" />
+        </a>
+
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" target="_blank"
+                class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" target="_blank"
+                class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" target="_blank"
+                  class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" target="_blank"
+                  class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Software Development</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+      <div class="container">
+
+        <div class="left">
+          <h1 class="h1">
+            Hi, I'm <b>Rupesh Kumar</b> <br />Web Developer
+          </h1>
+
+          <p class="h3">Specialized in Web Development.</p>
+
+          <div class="btn-group">
+            <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" target="_blank"
+              class="btn btn-primary">Contact Me
+              <ion-icon name="call"></ion-icon>
+            </a>
+            <a href="https://drive.google.com/file/d/1YrxV_aSbrjqzWKDh0qBdP1-BoUIpzJ7s/view?usp=drivesdk" target="_blank"
+              class="btn btn-secondary">Download CV
+              <ion-icon name="cloud-download-sharp"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/RK.png" alt="Rupesh Kumar" class="hero-img" style="width: 400px; height: 470px;"/>
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <!-- Latest Projects -->
+
+          <h2 class="h2">Freelance | Self-Employed Projects</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/AI_WebScraper.png" alt="AI-WebScraper" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/rupesh2803/Ai-WebScraper" class="h3" target="_blank">AI-WebScraper</a>
+                </h3>
+
+                <p class="blog-text">
+                  The AI-WebScraper is an advanced web scraping tool.
+                  I developed using Python to automate the extraction and analysis of web data. 
+                  It combines powerful scraping techniques with AI-driven parsing for highly customizable data extraction.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Dec 23, 2024</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/netflix.png" alt="netflix" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/rupesh2803/Netflix-login-page" class="h3" target="_blank">Netflix Login Page</a>
+                </h3>
+
+                <p class="blog-text">
+                  The Netflix Login Page is a front-end web application built with HTML5 and CSS3. 
+                  It offers a clean, responsive design that mimics the authentic Netflix login experience.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 10, 2023</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/nastra_website.png" alt="Website" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/rupesh2803/E-Commerce-Website" class="h3" target="_blank">Nastra Website</a>
+                </h3>
+
+                <p class="blog-text">
+                  Nastra is a modern e-commerce platform specializing in selling clothes. 
+                  Designed and developed to offer a seamless and engaging shopping experience,
+                  The website showcases my expertise in front-end development, UI/UX design,
+                  and responsive web development.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2023-07-10">Sep 10, 2022</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/booksky.png" alt="book" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/rupesh2803/Booksky-project" class="h3" target="_blank">
+                    Booksky
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  BookSky is a dynamic webpage designed for managing book details efficiently. 
+                  It provides users with a seamless experience to add new book entries or delete existing ones, 
+                  making it ideal for personal or small library management.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-12-17">Dec 17, 2022</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            
+
+
+            <!-- Problem Solving
+
+            <h2 class="h2">Problem Solving</h2>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/problem-solving/python.png" alt="Python" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/python-challenge31-pl7" class="h3" target="_blank">Simple
+                    Encryption - Alternating Split</a>
+                </h3>
+
+                <p class="blog-text">
+                  Implement a pseudo-encryption algorithm which given a string S and an integer N
+                  Concatenates all the odd-indexed characters of S with all the even-indexed characters of S.
+                  This process should be repeated N times.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/problem-solving/js2.jpg" alt="JavaScript" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/javascript-challenges3-1dpk" class="h3" target="_blank">Simple
+                    Roman Numerals Encoder</a>
+                </h3>
+
+                <p class="blog-text">
+                  Create a function taking a positive integer as its parameter and returning a string containing the
+                  Roman Numeral representation of that integer.
+                  Modern Roman numerals are written by expressing each digit separately starting with the left most
+                  digit and skipping any digit with a value of zero.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/problem-solving/sql-1.png" alt="SQL" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/sql-challenge1-1cnp" class="h3" target="_blank">
+                    Data Science Skills LinkedIn SQL Interview Question</a>
+                </h3>
+
+                <p class="blog-text">
+                  Given a table of candidates and their skills, you're tasked with finding the candidates best suited
+                  for an open Data Science job.
+                  You want to find candidates who are proficient in Python, Tableau, and PostgreSQL.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/rk.png" alt="Me" style="width: 51px; height: 61px;"/>
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Rupesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            
+            
+          </div>
+
+          
+        </div>
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+          <div class="topics">
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="code-slash-sharp"></ion-icon>
+              </div>
+
+              <p>Software Development</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+          </div>
+
+          <div class="tags">
+            <h2 class="h2">My Skills</h2>
+
+            <div class="wrapper">
+              <button class="hashtag">#HTML5</button>
+              <button class="hashtag">#CSS</button>
+              <button class="hashtag">#JavaScript</button>
+              <button class="hashtag">#React JS</button>
+              <button class="hashtag">#Python</button>
+              <button class="hashtag">#Java</button>
+              <button class="hashtag">#C</button>
+              <button class="hashtag">#C++</button>
+              <button class="hashtag">#VS Code</button>
+              <button class="hashtag">#Git</button>
+              <button class="hashtag">#GitHub</button>
+              <button class="hashtag">#Problem Solving</button>
+              <button class="hashtag">#Time Management</button>
+            </div>
+          </div>
+
+          <div class="contact">
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+              <p>
+                Do you want to learn more about how I can help your company
+                overcome problems? Let us have a conversation.
+              </p>
+
+              <ul class="social-link">
+                <li>
+                  <a href="https://discord.com/channels/1318611896101769256/1318614709779566712" target="_blank"
+                    class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+              
+
+                <li>
+                  <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" class="icon-box linkedin"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="wrapper">
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo.png" alt="Logo" class="logo-light" />
+          <img src="./assets/images/logo.png" alt="Logo" class="logo-dark" />
+        </a>
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database
+          management.
+        </p>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/rupesh-kumar-n-442829257/" class="footer-link"
+              target="_blank">LinkdIn</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/rupesh2803" target="_blank" class="footer-link">GitHub</a>
+          </li>
+
+          
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2025
+    </p>
+  </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
