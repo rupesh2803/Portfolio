@@ -156,7 +156,8 @@ html {
 .h1,
 .h2,
 .h3,
-.h4 {
+.h4,
+.h5{
   display: block;
   color: var(--foreground-primary);
 }
@@ -178,6 +179,11 @@ html {
 
 .h4 {
   font-size: var(--fs-4);
+  font-weight: 700;
+}
+
+.h5 {
+  font-size: var(--fs-5);
   font-weight: 700;
 }
 
